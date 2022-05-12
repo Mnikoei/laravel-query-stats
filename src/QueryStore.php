@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Mnikoei\Pipeline;
+namespace Mnikoei\Qs;
 
 
 class QueryStore
@@ -17,6 +17,6 @@ class QueryStore
 
     public function saveQueries()
     {
-        app('qc')->saveQueries();
+        Qs::saveQueries();
     }
 }

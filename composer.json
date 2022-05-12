@@ -1,5 +1,5 @@
 {
-    "name": "mnikoei/pipeline",
+    "name": "mnikoei/laravel-query-stats",
     "description": "--",
     "license": "MIT",
     "authors": [
@@ -9,16 +9,18 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "calebporzio/sushi": "^2.4"
+    },
     "autoload": {
         "psr-4": {
-            "Mnikoei\\Pipeline\\": "src/"
+            "Mnikoei\\Qs\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Mnikoei\\Pipeline\\ServiceProvider"
+                "Mnikoei\\Qs\\ServiceProvider"
             ]
         }
     }

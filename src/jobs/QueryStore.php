@@ -1,6 +1,6 @@
 <?php
 
-namespace Mnikoei\Pipeline\Jobs;
+namespace Mnikoei\Qs\Jobs;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
